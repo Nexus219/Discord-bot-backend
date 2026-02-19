@@ -6,15 +6,14 @@
     "module": "ESNext",
     "target": "ES2020",
     "strict": true,
-    "lib": ["esnext", "dom"],
+    "lib": ["esnext"],
     "esModuleInterop": true,
     "skipLibCheck": true,
-    "allowImportingTsExtensions": true,
     "moduleResolution": "node",
     "rootDir": ".",
     "types": ["node"],
     "baseUrl": "."
   },
-  "include": ["server/**/*"],  // Only backend files
+  "include": ["server/**/*.ts", "server/**/*.js"],
   "exclude": ["node_modules", "dist", "**/*.test.ts"]
 }
