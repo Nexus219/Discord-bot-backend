@@ -14,6 +14,6 @@
     "types": ["node"],
     "baseUrl": "."
   },
-  "include": ["server/**/*.ts", "server/**/*.js"],
+  "include": ["**/*.ts"],   // ← include all TS files in repo
   "exclude": ["node_modules", "dist", "**/*.test.ts"]
 }
